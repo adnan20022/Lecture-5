@@ -6,17 +6,80 @@
     <title>Forms</title>
 </head>
 <body>
-    <div>
-        <label for="name">Name:</label>
-        <input type="text" name="" id="">
-    </div>
+    <form>
+    
     <div>
         <label for="email">Email:</label>
-        <input type="text" name="" id="">
+        <input type="email" name="email" placeholder="email" required>
     </div>
-    <script>
-       na 
-    </script> 
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="enter the password" required>
+    </div>
+    <div>
+        <label for="message">Message:</label>
+        <input type="text" name="message" placeholder="enter the message"></div>
+        <div>
+            <label for="age">Age:</label>
+        <input type="number" name="age" placeholder="age"></div>
+        <input type="color" >
+    <div><label for="datetime">datetime:</label>
+        <input type="datetime-local">
+    </div>
+    <input type="month">
+    <input type="file" multiple>
+    <div>
+        
+        <textarea name="message" id="" rows="10" cols="20"></textarea>
+    </div>
     
+    <button type="button">Reset</button>
+    <button type="submit">submit</button>
+    
+</form>
+<script>
+  // alert("Hi I am infile js")
+   console.log("Hi I am infile js")
+//variable
+// pascal case
+let MyAge=34;
+// snake case
+let my_age=34;
+//camel case
+let myAge=34;
+let amountsent=2000
+let amountreceived=1500
+let amountleft= amountsent-amountreceived
+console.log(amountleft)
+let firstname="adnan"
+let lastname="ali"
+let fullname=firstname+" "+lastname
+console.log(fullname)
+console.log(fullname + amountsent)
+// variable rules
+console.log("1st person age");
+console.log(15);
+console.log("2nd person age");
+console.log(20);
+console.log("1st person age*2nd person age");
+console.log(300);
+console.log("1st person age-2nd person age");
+console.log(5);
+console.log("1st pereson age/second person age");
+console.log(3/4);
+console.log("1st person age+2nd person age");
+console.log(35);
+let subscriptioncharges=23.35;
+let numofusers=3;
+
+// subscriptioncharges=subscriptioncharges * numofusers;
+subscriptioncharges += numofusers;
+console.log(subscriptioncharges);
+
+//BODMAS
+let laplaceEq=(2+3)*(3+4)/5;
+console.log((2+3)*(3+4)/5);
+
+</script>
 </body> 
 </html>
